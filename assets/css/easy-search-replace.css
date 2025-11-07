@@ -1,0 +1,101 @@
+/**
+ * Easy Search and Replace Text - Styles
+ *
+ * @package Easy_Search_Replace_Text
+ */
+
+/* Meta Box Wrapper */
+.easy-search-replace-wrapper {
+    padding: 10px 0;
+}
+
+.easy-search-replace-wrapper .description {
+    margin: 0 0 15px 0;
+    padding: 8px 12px;
+    background: #f0f6fc;
+    border-left: 4px solid #2271b1;
+    color: #1d2327;
+}
+
+/* Form Table */
+.easy-search-replace-wrapper .form-table {
+    margin-top: 15px;
+}
+
+.easy-search-replace-wrapper .form-table th {
+    padding: 15px 10px 15px 0;
+    width: 150px;
+}
+
+.easy-search-replace-wrapper .form-table td {
+    padding: 15px 10px;
+}
+
+.easy-search-replace-wrapper .form-table input[type="text"] {
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Checkbox Options */
+.easy-search-replace-wrapper fieldset label {
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.easy-search-replace-wrapper fieldset input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Button Styling */
+#esr_replace_btn {
+    font-size: 14px;
+    height: auto;
+    padding: 8px 16px;
+}
+
+#esr_replace_btn .dashicons {
+    margin-right: 5px;
+}
+
+#esr_replace_btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Result Message */
+#esr_result_message {
+    margin-top: 15px;
+    padding: 0;
+}
+
+#esr_result_message.notice {
+    display: block;
+    padding: 1px 12px;
+}
+
+#esr_result_message p {
+    margin: 0.5em 0;
+    padding: 2px 0;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 782px) {
+    .easy-search-replace-wrapper .form-table th,
+    .easy-search-replace-wrapper .form-table td {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .easy-search-replace-wrapper .form-table input[type="text"] {
+        max-width: 100%;
+    }
+}
+
+/* Accessibility */
+.easy-search-replace-wrapper input:focus,
+.easy-search-replace-wrapper button:focus {
+    outline: 2px solid #2271b1;
+    outline-offset: 2px;
+}
+
